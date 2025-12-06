@@ -1,0 +1,93 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "achievements": "Achievements",
+    "contacts": "Contacts"
+  },
+  "Hero": {
+    "title": "Academ Kids",
+    "subtitle": "Children's creativity and development club",
+    "wa": "Enroll via WhatsApp",
+    "call": "Call",
+    "why": "Why us?",
+    "benefit1": "Professional teachers 7+ years",
+    "benefit2": "150+ competition wins",
+    "benefit3": "Individual approach",
+    "benefit4": "Modern methods + play",
+    "logoAlt": "Academ Kids",
+    "loading": "Loading…"
+  },
+  "About": {
+    "title": "About us",
+    "text1": "Academ Kids is a creativity and development club for children aged 5 to 14.",
+    "text2": "More than 150 winners of republican and international olympiads and competitions.",
+    "text3": "Professional teachers, individual approach and only modern methods.",
+    "motto": "Developing talents, inspiring success!"
+  },
+  "Courses": {
+    "title": "Our courses",
+    "more": "Learn more",
+    "enroll": "Enroll",
+    "ageRange": "years",
+    "items": {
+      "robotics": {
+        "name": "LEGO Robotics",
+        "age": "6–14",
+        "desc": "Build and program robots"
+      },
+      "mentalMath": {
+        "name": "Mental Math",
+        "age": "5–12",
+        "desc": "Calculate faster than a calculator"
+      },
+      "english": {
+        "name": "English Language",
+        "age": "5–14",
+        "desc": "Speak fluently from the first lesson"
+      },
+      "programming": {
+        "name": "Programming",
+        "age": "8–14",
+        "desc": "Scratch → Python → your own games"
+      },
+      "chess": {
+        "name": "Chess",
+        "age": "5–14",
+        "desc": "Logic and strategy"
+      },
+      "creative": {
+        "name": "Creative Workshop",
+        "age": "5–10",
+        "desc": "Drawing, sculpting, crafts"
+      }
+    }
+  },
+  "Achievements": {
+    "title": "Our achievements"
+  },
+  "Contacts": {
+    "title": "Contacts",
+    "address": "Bishkek, Toktogul St. 123",
+    "phone": "Phone / WhatsApp",
+    "enroll": "Sign up for a trial lesson"
+  },
+  "Form": {
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "phone": "Phone",
+    "phonePlaceholder": "+996 XXX XXX XXX",
+    "childAge": "Child's age",
+    "agePlaceholder": "For example: 7 years",
+    "course": "Course",
+    "selectCourse": "Select a course",
+    "submit": "Submit application",
+    "enrollMessage": "I want to enroll in the course",
+    "messageName": "Name",
+    "messagePhone": "Phone",
+    "messageAge": "Child's age",
+    "messageCourse": "Course",
+    "notSelected": "Not selected"
+  }
+}
