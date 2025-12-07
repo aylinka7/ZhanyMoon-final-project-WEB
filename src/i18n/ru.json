@@ -31,38 +31,10 @@
     "more": "Подробнее",
     "enroll": "Записаться",
     "ageRange": "лет",
-    "items": {
-      "robotics": {
-        "name": "Робототехника LEGO",
-        "age": "6–14",
-        "desc": "Собираем и программируем роботов"
-      },
-      "mentalMath": {
-        "name": "Ментальная арифметика",
-        "age": "5–12",
-        "desc": "Считаем в уме быстрее калькулятора"
-      },
-      "english": {
-        "name": "Английский язык",
-        "age": "5–14",
-        "desc": "Говорим свободно с первого занятия"
-      },
-      "programming": {
-        "name": "Программирование",
-        "age": "8–14",
-        "desc": "Scratch → Python → свои игры"
-      },
-      "chess": {
-        "name": "Шахматы",
-        "age": "5–14",
-        "desc": "Логика и стратегия"
-      },
-      "creative": {
-        "name": "Творческая мастерская",
-        "age": "5–10",
-        "desc": "Рисование, лепка, поделки"
-      }
-    }
+    "available": "доступных курсов",
+    "showAll": "Показать все",
+    "pricePerMonth": "сом/мес",
+    "schedule": "2 раза в неделю • 60 мин"
   },
   "Achievements": {
     "title": "Наши достижения"
@@ -74,19 +46,20 @@
     "enroll": "Записаться на пробное занятие"
   },
   "Form": {
-    "name": "Имя",
-    "namePlaceholder": "Введите ваше имя",
+    "childName": "Имя ребёнка",
+    "childNamePlaceholder": "Введите имя ребёнка",
     "phone": "Телефон",
-    "phonePlaceholder": "+996 XXX XXX XXX",
+    "phonePlaceholder": "996XXXXXXXXX",
     "childAge": "Возраст ребенка",
-    "agePlaceholder": "Например: 7 лет",
+    "agePlaceholder": "Введите возраст ребенка",
+    "parentNamePlaceholder": "Введите имя родителя",
+    "parentName": "Имя родителя",
     "course": "Курс",
     "selectCourse": "Выберите курс",
     "submit": "Отправить заявку",
     "enrollMessage": "Хочу записаться на курс",
     "messageName": "Имя",
     "messagePhone": "Телефон",
-    "messageAge": "Возраст ребенка",
     "messageCourse": "Курс",
     "notSelected": "Не выбран"
   }

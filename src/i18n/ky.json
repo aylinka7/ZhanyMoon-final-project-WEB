@@ -23,38 +23,10 @@
     "more": "Толук маалымат",
     "enroll": "Жазылуу",
     "ageRange": "жаш",
-    "items": {
-      "robotics": {
-        "name": "LEGO робототехника",
-        "age": "6–14",
-        "desc": "Роботторду чогултуп, программалайбыз"
-      },
-      "mentalMath": {
-        "name": "Менталдык арифметика",
-        "age": "5–12",
-        "desc": "Калккулятордон тезирээк эсептейбиз"
-      },
-      "english": {
-        "name": "Англис тили",
-        "age": "5–14",
-        "desc": "Биринчи сабактан эркин сүйлөйбүз"
-      },
-      "programming": {
-        "name": "Программалоо",
-        "age": "8–14",
-        "desc": "Scratch → Python → өз оюндарыңыз"
-      },
-      "chess": {
-        "name": "Шахмат",
-        "age": "5–14",
-        "desc": "Логика жана стратегия"
-      },
-      "creative": {
-        "name": "Чыгармачылык мастерская",
-        "age": "5–10",
-        "desc": "Сүрөт тартуу, скульптура, кол өнөрчүлүк"
-      }
-    }
+    "available": "жеткиликтүү курстар",
+    "showAll": "Бардыгын көрсөт",
+    "pricePerMonth": "сом/ай",
+    "schedule": "аптасына 2 жолу • 60 мүнөт"
   },
   "Achievements": { "title": "Биздин жетишкендиктер" },
   "Contacts": {
@@ -64,19 +36,20 @@
     "enroll": "Сыноо сабакка жазылуу"
   },
   "Form": {
-    "name": "Аты",
-    "namePlaceholder": "Атыңызды киргизиңиз",
+    "childName": "Баланын аты",
+    "childNamePlaceholder": "Баланын атын жазыңыз",
     "phone": "Телефон",
-    "phonePlaceholder": "+996 XXX XXX XXX",
+    "phonePlaceholder": "996XXXXXXXXX",
     "childAge": "Баланын жашы",
-    "agePlaceholder": "Мисалы: 7 жаш",
+    "agePlaceholder": "Баланын жашын жазыңыз",
+    "parentName": "Ата-эненин аты",
+    "parentNamePlaceholder": "Ата-эненин атын жазыңыз",
     "course": "Курс",
     "selectCourse": "Курсту тандаңыз",
-    "submit": "Арыз жөнөтүү",
-    "enrollMessage": "Курска жазылгым келет",
+    "submit": "Заявканы жөнөтүү",
+    "enrollMessage": "Мен курска жазылгым келет",
     "messageName": "Аты",
     "messagePhone": "Телефон",
-    "messageAge": "Баланын жашы",
     "messageCourse": "Курс",
     "notSelected": "Тандалган жок"
   }

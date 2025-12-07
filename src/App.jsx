@@ -6,6 +6,7 @@ import About from './pages/About';
 import Courses from './pages/Courses';
 import Achievements from './pages/Achievements';
 import Contacts from './pages/Contacts';
+import Admin from "./pages/Admin.jsx";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                         <Route path="/courses" element={<Courses />} />
                         <Route path="/achievements" element={<Achievements />} />
                         <Route path="/contacts" element={<Contacts />} />
+                        <Route path="/admin" element={<Admin />} />
                     </Routes>
                 </main>
                 <Footer />

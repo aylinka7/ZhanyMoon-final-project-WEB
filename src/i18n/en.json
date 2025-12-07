@@ -31,38 +31,10 @@
     "more": "Learn more",
     "enroll": "Enroll",
     "ageRange": "years",
-    "items": {
-      "robotics": {
-        "name": "LEGO Robotics",
-        "age": "6–14",
-        "desc": "Build and program robots"
-      },
-      "mentalMath": {
-        "name": "Mental Math",
-        "age": "5–12",
-        "desc": "Calculate faster than a calculator"
-      },
-      "english": {
-        "name": "English Language",
-        "age": "5–14",
-        "desc": "Speak fluently from the first lesson"
-      },
-      "programming": {
-        "name": "Programming",
-        "age": "8–14",
-        "desc": "Scratch → Python → your own games"
-      },
-      "chess": {
-        "name": "Chess",
-        "age": "5–14",
-        "desc": "Logic and strategy"
-      },
-      "creative": {
-        "name": "Creative Workshop",
-        "age": "5–10",
-        "desc": "Drawing, sculpting, crafts"
-      }
-    }
+    "available": "available courses",
+    "showAll": "Show all",
+    "pricePerMonth": "som/month",
+    "schedule": "2 times a week • 60 min"
   },
   "Achievements": {
     "title": "Our achievements"
@@ -74,19 +46,20 @@
     "enroll": "Sign up for a trial lesson"
   },
   "Form": {
-    "name": "Name",
-    "namePlaceholder": "Enter your name",
+    "childName": "Child's name",
+    "childNamePlaceholder": "Enter child's name",
     "phone": "Phone",
-    "phonePlaceholder": "+996 XXX XXX XXX",
+    "phonePlaceholder": "996XXXXXXXXX",
     "childAge": "Child's age",
-    "agePlaceholder": "For example: 7 years",
+    "agePlaceholder": "Enter child's age",
+    "parentName": "Parent's name",
+    "parentNamePlaceholder": "Enter parent's name",
     "course": "Course",
     "selectCourse": "Select a course",
     "submit": "Submit application",
     "enrollMessage": "I want to enroll in the course",
     "messageName": "Name",
     "messagePhone": "Phone",
-    "messageAge": "Child's age",
     "messageCourse": "Course",
     "notSelected": "Not selected"
   }
