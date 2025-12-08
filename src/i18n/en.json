@@ -34,7 +34,15 @@
     "available": "available courses",
     "showAll": "Show all",
     "pricePerMonth": "som/month",
-    "schedule": "2 times a week • 60 min"
+    "schedule": "2 times a week • 60 min",
+    "loadError": "Failed to load courses",
+    "loading": "Loading courses...",
+    "heroSubtitle": "Choose the perfect course to grow your child's talent",
+    "emptyTitle": "Courses coming soon",
+    "emptyText": "We’re preparing exciting programs for you!",
+    "reload": "Reload",
+    "ctaText": "Contact us and we’ll help you pick the ideal program for your child!",
+    "ctaButton": "Get a consultation"
   },
   "Achievements": {
     "title": "Our achievements"
@@ -43,7 +51,42 @@
     "title": "Contacts",
     "address": "Bishkek, Toktogul St. 123",
     "phone": "Phone / WhatsApp",
-    "enroll": "Sign up for a trial lesson"
+    "enroll": "Sign up for a trial lesson",
+    "phoneDisplay": "+996 999 123 456",
+    "description": "We’re always happy to answer questions and help you choose the best course for your child",
+    "info": {
+      "addressTitle": "Address",
+      "phoneTitle": "Phone",
+      "whatsappTitle": "WhatsApp",
+      "emailTitle": "Email"
+    },
+    "hours": {
+      "title": "Working hours",
+      "weekdays": "Monday - Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "dayOff": "Day off",
+      "writeWhatsApp": "Message on WhatsApp"
+    },
+    "quick": {
+      "title": "Quick contact",
+      "success": "Thank you! We’ll reach out soon.",
+      "namePlaceholder": "Your name",
+      "phonePlaceholder": "Your phone",
+      "messagePlaceholder": "Your message",
+      "submit": "Send message",
+      "call": "Call",
+      "whatsapp": "WhatsApp"
+    },
+    "map": {
+      "title": "Our address",
+      "open": "Open in Google Maps"
+    },
+    "cta": {
+      "title": "Book a trial lesson!",
+      "text": "First lesson is free — meet our teachers and programs",
+      "button": "Book now"
+    }
   },
   "Form": {
     "childName": "Child's name",
@@ -61,6 +104,7 @@
     "messageName": "Name",
     "messagePhone": "Phone",
     "messageCourse": "Course",
-    "notSelected": "Not selected"
+    "notSelected": "Not selected",
+    "loading": "Sending..."
   }
 }
