@@ -1,7 +1,6 @@
 const API_BASE = 'http://localhost:8080/api';
 // const API_BASE = import.meta.env.VITE_API_BASE;
 
-
 export const getCourses = async () => {
     const response = await fetch(`${API_BASE}/courses`);
     if (!response.ok) throw new Error('Не удалось загрузить курсы');
@@ -36,16 +35,54 @@ export const submitApplication = async (data) => {
     return response.text(); // "Спасибо! Мы свяжемся..."
 };
 
-export const getApplications = async () => {
-    const response = await fetch(`${API_BASE}/applications`);
-    if (!response.ok) throw new Error('Не удалось загрузить заявки');
+const fetchWithAuth = async (url, authHeader, options = {}) => {
+    return fetch(url, {
+        ...options,
+        headers: {
+            ...options.headers,
+            'Authorization': authHeader,
+            'Accept': 'application/json',
+        },
+    });
+};
+
+
+export const getApplications = async (authHeader) => {
+    const response = await fetchWithAuth(`${API_BASE}/applications`, authHeader);
+
+    if (!response.ok) {
+        throw new Error('Не удалось загрузить заявки');
+    }
+
     return response.json();
 };
 
-export const deleteApplication = async (id) => {
-    const response = await fetch(`${API_BASE}/applications/${id}`, {
+
+
+export const deleteApplication = async (id, authHeader) => {
+    const response = await fetchWithAuth(`${API_BASE}/applications/${id}`, authHeader, {
         method: 'DELETE',
     });
-    if (!response.ok) throw new Error('Не удалось удалить заявку');
-    return response.text();
+
+    if (!response.ok) {
+        throw new Error('Не удалось удалить заявку');
+    }
+
+    const text = await response.text();
+    return text || true;
 };
+
+
+// export const getApplications = async () => {
+//     const response = await fetch(`${API_BASE}/applications`);
+//     if (!response.ok) throw new Error('Не удалось загрузить заявки');
+//     return response.json();
+// };
+//
+// export const deleteApplication = async (id) => {
+//     const response = await fetch(`${API_BASE}/applications/${id}`, {
+//         method: 'DELETE',
+//     });
+//     if (!response.ok) throw new Error('Не удалось удалить заявку');
+//     return response.text();
+// };
