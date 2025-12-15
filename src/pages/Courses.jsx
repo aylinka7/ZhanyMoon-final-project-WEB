@@ -8,10 +8,10 @@ export default function Courses() {
     const [courses, setCourses] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    const [activeFilter, setActiveFilter] = useState('all');
+    // const [activeFilter, setActiveFilter] = useState('all');
     const [visibleCourses, setVisibleCourses] = useState(6);
 
-    const IMAGE_BASE = 'http://localhost:8080';
+    const IMAGE_BASE = 'https://zhany-moon.onrender.com';
 
     useEffect(() => {
         getCourses()
@@ -108,7 +108,6 @@ export default function Courses() {
             </div>
         );
     }
-
     return (
         <div className="overflow-hidden">
             {/* Hero Section */}
@@ -184,6 +183,8 @@ export default function Courses() {
                                                     src={`${IMAGE_BASE}${course.imageUrl}`}
                                                     alt={getLocalizedCourseName(course)}
                                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                                    // onLoad={() => console.log('Изображение загружено:', `${IMAGE_BASE}${course.imageUrl}`)}
+                                                    // onError={() => console.log('Ошибка загрузки изображения:', `${IMAGE_BASE}${course.imageUrl}`)}
                                                 />
                                             ) : (
                                                 <div className={`w-full h-full bg-gradient-to-br ${getCourseColor(index)} flex items-center justify-center`}>

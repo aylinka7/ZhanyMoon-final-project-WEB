@@ -45,19 +45,15 @@ export default function Main() {
         setErrors({});
         setFormSubmitting(true);
 
-        try {
-            await submitApplication(formData);
-            setSuccess('Спасибо! Мы свяжемся с вами в ближайшее время');
-            setFormData({ childName: '', childAge: '', parentName: '', phone: '', courseName: '', message: '' });
-        } catch (err) {
-            if (err.message.includes('Неверный номер телефона')) {
-                setErrors({ ...errors, phone: 'Неверный формат телефона (пример: +996555123456)' });
-            } else {
-                setError(err.message);
-            }
-        } finally {
-            setFormSubmitting(false);
-        }
+      try {
+        await submitApplication(formData);
+        setSuccess('Спасибо! Мы свяжемся с вами в ближайшее время');
+        setFormData({ childName: '', childAge: '', parentName: '', phone: '', courseName: '', message: '' });
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setFormSubmitting(false);
+      }
     };
 
     return (
@@ -95,11 +91,12 @@ export default function Main() {
 
                             <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
                                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 via-pink-300 to-white">
-                                    {t('Hero.title')}
+                                    {/*{t('Hero.title')}*/}
+                                    А.а.л.а.м Kids
                                 </span>
                             </h1>
 
-                            <p className="text-xl lg:text-2xl text-white/90 max-w-xl">
+                            <p className="text-xl lg:text-2xl text-white/90 max-w-xl w-100">
                                 {t('Hero.subtitle')}
                             </p>
 
@@ -355,16 +352,9 @@ export default function Main() {
                                                 required
                                                 type="text"
                                                 inputMode="numeric"
-                                                pattern="\\d*"
                                                 placeholder={t('Form.agePlaceholder')}
                                                 value={formData.childAge}
-                                                onChange={(e) => {
-                                                    const value = e.target.value;
-                                                    if (/^\\d*$/.test(value)) {
-                                                        setFormData({ ...formData, childAge: value });
-                                                        setErrors({ ...errors, childAge: '' });
-                                                    }
-                                                }}
+                                                onChange={(e) => setFormData({ ...formData, childAge: e.target.value })}
                                                 className="w-full px-6 py-5 bg-white/90 backdrop-blur-sm rounded-2xl text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-purple-400/50 transition-all shadow-lg placeholder-gray-400"
                                             />
                                             <label className="absolute -top-3 left-5 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-medium shadow-lg">

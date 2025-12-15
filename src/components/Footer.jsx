@@ -6,10 +6,10 @@ export default function Footer() {
     const { t } = useTranslation();
 
     const socialLinks = [
-        { name: 'Instagram', icon: '📸', url: '#', color: 'from-pink-500 to-purple-600' },
+        { name: 'Instagram', icon: '📸', url: 'https://www.instagram.com/aalam_kids?igsh=MW1xaTQyNzNzM29oaQ==', color: 'from-pink-500 to-purple-600' },
         { name: 'WhatsApp', icon: '💬', url: 'https://wa.me/996999123456', color: 'from-green-500 to-emerald-600' },
-        { name: 'Telegram', icon: '✈️', url: '#', color: 'from-blue-400 to-blue-600' },
-        { name: 'YouTube', icon: '🎬', url: '#', color: 'from-red-500 to-red-700' },
+        // { name: 'Telegram', icon: '✈️', url: '#', color: 'from-blue-400 to-blue-600' },
+        // { name: 'YouTube', icon: '🎬', url: '#', color: 'from-red-500 to-red-700' },
     ];
 
     const quickLinks = [
@@ -36,9 +36,9 @@ export default function Footer() {
                             <img src={logo} alt="Академ Кидс" className="w-16 h-16 object-contain" />
                             <div>
                                 <span className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-                                    Академ Кидс
+                                    А.а.л.а.м Kids
                                 </span>
-                                <div className="text-xs text-gray-400">Детский клуб развития</div>
+                                <div className="text-xs text-gray-400">Детский инновационный центр творчества и развития</div>
                             </div>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -108,42 +108,42 @@ export default function Footer() {
                                 <span className="text-xl mt-0.5">⏰</span>
                                 <div>
                                     <div className="text-sm text-gray-400">Режим работы</div>
-                                    <div className="text-white">Пн-Сб: 9:00 - 19:00</div>
+                                    <div className="text-white">Пн-Вс: 9:00 - 15:00</div>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
                     {/* Newsletter */}
-                    <div>
-                        <h4 className="text-lg font-bold mb-6 flex items-center gap-2">
-                            <span className="w-8 h-8 rounded-lg bg-yellow-500/20 flex items-center justify-center">✉️</span>
-                            Подписка
-                        </h4>
-                        <p className="text-gray-400 text-sm mb-4">
-                            Получайте новости о курсах и акциях
-                        </p>
-                        <form className="space-y-3">
-                            <input
-                                type="email"
-                                placeholder="Ваш email"
-                                className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
-                            />
-                            <button
-                                type="submit"
-                                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300"
-                            >
-                                Подписаться 🚀
-                            </button>
-                        </form>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <h4 className="text-lg font-bold mb-6 flex items-center gap-2">*/}
+                    {/*        <span className="w-8 h-8 rounded-lg bg-yellow-500/20 flex items-center justify-center">✉️</span>*/}
+                    {/*        Подписка*/}
+                    {/*    </h4>*/}
+                    {/*    <p className="text-gray-400 text-sm mb-4">*/}
+                    {/*        Получайте новости о курсах и акциях*/}
+                    {/*    </p>*/}
+                    {/*    <form className="space-y-3">*/}
+                    {/*        <input*/}
+                    {/*            type="email"*/}
+                    {/*            placeholder="Ваш email"*/}
+                    {/*            className="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"*/}
+                    {/*        />*/}
+                    {/*        <button*/}
+                    {/*            type="submit"*/}
+                    {/*            className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300"*/}
+                    {/*        >*/}
+                    {/*            Подписаться 🚀*/}
+                    {/*        </button>*/}
+                    {/*    </form>*/}
+                    {/*</div>*/}
                 </div>
 
                 {/* Bottom Bar */}
                 <div className="mt-16 pt-8 border-t border-white/10">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-gray-500 text-sm text-center md:text-left">
-                            © 2025 <span className="text-purple-400 font-semibold">Академ Кидс</span> — Все права защищены
+                            © 2025 <span className="text-purple-400 font-semibold">А.а.л.а.м Kids</span> — Все права защищены
                         </p>
                         <div className="flex items-center gap-6 text-sm text-gray-500">
                             <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>

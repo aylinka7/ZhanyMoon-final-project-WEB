@@ -36,9 +36,9 @@ export default function Header() {
                         </div>
                         <div className="hidden sm:block">
                             <span className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
-                                Академ Кидс
+                                А.а.л.а.м Kids
                             </span>
-                            <div className="text-xs text-gray-500 font-medium">Детский клуб развития</div>
+                            <div className="text-xs text-gray-500 font-medium w-44">Детский инновационный центр творчества и развития</div>
                         </div>
                     </Link>
 
@@ -71,7 +71,7 @@ export default function Header() {
                     <div className="flex items-center gap-4">
                         {/* CTA Button - Desktop */}
                         <a
-                            href="tel:+996999123456"
+                            href="tel:+996505709670"
                             className="hidden md:flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-green-500/30 transform hover:scale-105 transition-all duration-300"
                         >
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

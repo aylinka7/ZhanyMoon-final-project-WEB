@@ -10,21 +10,21 @@ export default function Contacts() {
         {
             icon: '📍',
             title: t('Contacts.info.addressTitle'),
-            value: t('Contacts.address') || 'г. Бишкек, ул. Токтогула 123',
+            value: t('Contacts.address') || 'с. Арашан, ул. Ж. Акматова, 66, Дом Культуры, 2 этаж',
             color: 'from-purple-500 to-indigo-600'
         },
         {
             icon: '📱',
             title: t('Contacts.info.phoneTitle'),
-            value: t('Contacts.phoneDisplay'),
-            link: 'tel:+996999123456',
+            value: '+996 505 709 670',
+            link: 'tel:+996505709670',
             color: 'from-green-500 to-emerald-600'
         },
         {
             icon: '💬',
             title: t('Contacts.info.whatsappTitle'),
-            value: t('Contacts.phoneDisplay'),
-            link: 'https://wa.me/996999123456',
+            value: '+996 505 709 670',
+            link: 'https://wa.me/996505709670',
             color: 'from-green-400 to-green-600'
         },
         {
@@ -37,9 +37,9 @@ export default function Contacts() {
     ];
 
     const workingHours = [
-        { day: t('Contacts.hours.weekdays'), hours: '09:00 - 19:00' },
-        { day: t('Contacts.hours.saturday'), hours: '10:00 - 17:00' },
-        { day: t('Contacts.hours.sunday'), hours: t('Contacts.hours.dayOff') },
+        { day: t('Contacts.hours.weekdays'), hours: '09:00 - 15:00' },
+        // { day: t('Contacts.hours.saturday'), hours: '10:00 - 17:00' },
+        // { day: t('Contacts.hours.sunday'), hours: t('Contacts.hours.dayOff') },
     ];
 
     const handleSubmit = (e) => {
@@ -192,7 +192,7 @@ export default function Contacts() {
                                 <div className="mt-6 pt-6 border-t border-white/20 text-center">
                                     <p className="text-white/80 mb-4">Нужна срочная консультация?</p>
                                     <a
-                                        href="https://wa.me/996999123456"
+                                        href="https://wa.me/996505709670"
                                         className="inline-flex items-center gap-2 bg-white text-purple-600 font-bold px-6 py-3 rounded-xl hover:bg-gray-100 transition-colors"
                                     >
                                         <span>💬</span>
@@ -205,36 +205,103 @@ export default function Contacts() {
                         {/* Right Column - Map */}
                         <div className="space-y-8">
                             {/* Map */}
+                            {/*<div className="bg-white rounded-3xl shadow-xl overflow-hidden">*/}
+                            {/*    <div className="p-6 border-b border-gray-100">*/}
+                            {/*        <div className="flex items-center gap-3">*/}
+                            {/*            <span className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">*/}
+                            {/*                🗺️*/}
+                            {/*            </span>*/}
+                            {/*            <div>*/}
+                            {/*                <h3 className="text-xl font-bold text-gray-800">{t('Contacts.map.title')}</h3>*/}
+                            {/*                <p className="text-gray-500 text-sm">{t('Contacts.address') || 'г. Бишкек, ул. Токтогула 123'}</p>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*    <iframe*/}
+                            {/*        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.174953847265!2d74.62893731549794!3d42.85294170851395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d5c5b5b5b5%3A0x9a8b7c6d5e4f3a2b!2z0JDQsNC30LTQsNC90YbQtdC90LjRgtC4LCDQkdGA0LjQvdC40YfQtdC90YbQutCwINCj0LjQv9C40YfQtdGB0YHQutC40Lkg0L7RgdGC0L7Qsg!5e0!3m2!1sru!2skg!4v1733234567890!5m2!1sru!2skg"*/}
+                            {/*        width="100%"*/}
+                            {/*        height="350"*/}
+                            {/*        className="border-0"*/}
+                            {/*        allowFullScreen=""*/}
+                            {/*        loading="lazy"*/}
+                            {/*        referrerPolicy="no-referrer-when-downgrade"*/}
+                            {/*    ></iframe>*/}
+                            {/*    <div className="p-6">*/}
+                            {/*        <a*/}
+                            {/*            href="https://maps.google.com/?q=с.+Арашан,+ул.+Ж.+Акматова,+66,+Дом+Культуры,+2+этаж"*/}
+                            {/*            target="_blank"*/}
+                            {/*            rel="noopener noreferrer"*/}
+                            {/*            className="flex items-center justify-center gap-2 w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-4 rounded-2xl transition-colors"*/}
+                            {/*        >*/}
+                            {/*            <span>📍</span>*/}
+                            {/*            {t('Contacts.map.open')}*/}
+                            {/*        </a>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
+                            {/* Карта 2GIS */}
                             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
                                 <div className="p-6 border-b border-gray-100">
                                     <div className="flex items-center gap-3">
-                                        <span className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">
-                                            🗺️
+                                        <span className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">
+                                            Map
                                         </span>
                                         <div>
-                                            <h3 className="text-xl font-bold text-gray-800">{t('Contacts.map.title')}</h3>
-                                            <p className="text-gray-500 text-sm">{t('Contacts.address') || 'г. Бишкек, ул. Токтогула 123'}</p>
+                                            <h3 className="text-xl font-bold text-gray-800">Мы находимся здесь</h3>
+                                            <p className="text-gray-500 text-sm">
+                                                с. Арашан, ул. Ж. Акматова, 66, Дом Культуры, 2 этаж
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.0868516837584!2d74.58881931549856!3d42.87462770823886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7c7a2e7f0a3%3A0x8e7f3f3f3f3f3f3f!2sBishkek!5e0!3m2!1sen!2skg!4v1620000000000!5m2!1sen!2skg"
-                                    width="100%"
-                                    height="350"
-                                    className="border-0"
-                                    allowFullScreen=""
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                ></iframe>
+
+                                {/* 2GIS карта — точный адрес! */}
+                                <div className="relative w-full h-96">
+                                    <div
+                                        className="dg-widget-link"
+                                        style={{ width: '100%', height: '100%' }}>
+                                        <a
+                                            href="https://2gis.kg/bishkek/firm/70000001062313835"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{
+                                                display: 'block',
+                                                width: '100%',
+                                                height: '100%',
+                                                border: 0
+                                            }}
+                                        >
+                                            <img
+                                                src="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"
+                                                alt="2GIS Карта"
+                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            />
+                                        </a>
+                                    </div>
+                                    <script
+                                        charset="utf-8"
+                                        src="https://widgets.2gis.com/js/DGWidgetLoader.js"
+                                        async
+                                    ></script>
+                                    <script charset="utf-8" dangerouslySetInnerHTML={{ __html: `
+                                        new DGWidgetLoader({
+                                            "width": "100%", 
+                                            "height": "100%", 
+                                            "borderColor": "#a3a3a3", 
+                                            "pos": {"lat": 42.8531, "lon": 74.6308, "zoom": 18}, 
+                                            "opt": {"city": "bishkek"}, 
+                                            "org": [{"id": "70000001062313835"}]
+                                        });
+                                    `}}></script>
+                                </div>
+
                                 <div className="p-6">
                                     <a
-                                        href="https://goo.gl/maps/..."
+                                        href="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-2 w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-4 rounded-2xl transition-colors"
+                                        className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 rounded-2xl transition-all shadow-lg"
                                     >
-                                        <span>📍</span>
-                                        {t('Contacts.map.open')}
+                                        Открыть в 2GIS
                                     </a>
                                 </div>
                             </div>
@@ -242,14 +309,14 @@ export default function Contacts() {
                             {/* Quick Actions */}
                             <div className="grid grid-cols-2 gap-4">
                                 <a
-                                    href="tel:+996999123456"
+                                    href="tel:+996505709670"
                                     className="group bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 text-center hover:-translate-y-1"
                                 >
                                     <span className="text-4xl block mb-3 group-hover:scale-125 transition-transform duration-300">📞</span>
                                     <span className="font-bold text-gray-800">{t('Contacts.quick.call')}</span>
                                 </a>
                                 <a
-                                    href="https://wa.me/996999123456"
+                                    href="https://wa.me/996505709670"
                                     className="group bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 text-center hover:-translate-y-1"
                                 >
                                     <span className="text-4xl block mb-3 group-hover:scale-125 transition-transform duration-300">💬</span>
@@ -272,7 +339,7 @@ export default function Contacts() {
                         {t('Contacts.cta.text')}
                     </p>
                     <a
-                        href="https://wa.me/996999123456"
+                        href="https://wa.me/996505709670"
                         className="inline-flex items-center gap-3 bg-white text-orange-600 hover:bg-gray-100 px-10 py-5 rounded-2xl text-xl font-bold shadow-2xl transform hover:scale-105 transition-all duration-300"
                     >
                         <span className="text-2xl">📝</span>
