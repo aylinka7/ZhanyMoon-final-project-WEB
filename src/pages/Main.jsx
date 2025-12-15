@@ -223,7 +223,7 @@ export default function Main() {
                                 {/* Image Container */}
                                 <div className="relative h-56 overflow-hidden">
                                     <img
-                                        src={`http://localhost:8080${c.imageUrl}`}
+                                        src={`https://zhany-moon.onrender.com${c.imageUrl}`}
                                         alt={getLocalizedCourseName(c)}
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />
