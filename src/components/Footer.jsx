@@ -40,11 +40,11 @@ export default function Footer() {
                                 <span className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
                                     А.а.л.а.м Kids
                                 </span>
-                                <div className="text-xs text-gray-400">Детский инновационный центр творчества и развития</div>
+                                <div className="text-xs text-gray-400">{t('Nav.aboutHeader')}</div>
                             </div>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                            Раскрываем таланты каждого ребенка через творчество, игру и современные методики обучения.
+                          {t('Nav.description')}
                         </p>
 
                         {/* Social Links */}
@@ -66,7 +66,7 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-bold mb-6 flex items-center gap-2">
                             <span className="w-8 h-8 rounded-lg bg-purple-500/20 flex items-center justify-center">🔗</span>
-                            Навигация
+                          {t('Nav.navigation')}
                         </h4>
                         <ul className="space-y-3">
                             {quickLinks.map((link) => (
@@ -87,20 +87,20 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-bold mb-6 flex items-center gap-2">
                             <span className="w-8 h-8 rounded-lg bg-pink-500/20 flex items-center justify-center">📍</span>
-                            Контакты
+                          {t('Contacts.title')}
                         </h4>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <span className="text-xl mt-0.5">🏢</span>
                                 <div>
-                                    <div className="text-sm text-gray-400">Адрес</div>
+                                    <div className="text-sm text-gray-400">{t('Contacts.info.addressTitle')}</div>
                                     <div className="text-white">{t('Contacts.address') || 'г. Бишкек, ул. Токтогула 123'}</div>
                                 </div>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-xl mt-0.5">📱</span>
                                 <div>
-                                    <div className="text-sm text-gray-400">Телефон</div>
+                                    <div className="text-sm text-gray-400">{t('Contacts.info.phoneTitle')}</div>
                                     <a href="tel:+996505709670" className="text-white hover:text-purple-400 transition-colors">
                                       +996 505 709 670
                                     </a>
@@ -109,8 +109,8 @@ export default function Footer() {
                             <li className="flex items-start gap-3">
                                 <span className="text-xl mt-0.5">⏰</span>
                                 <div>
-                                    <div className="text-sm text-gray-400">Режим работы</div>
-                                    <div className="text-white">Пн-Вс: 9:00 - 15:00</div>
+                                    <div className="text-sm text-gray-400">{t('Contacts.hours.title')}</div>
+                                    <div className="text-white">{t('Footer.hoursValue')}</div>
                                 </div>
                             </li>
                         </ul>
@@ -145,11 +145,11 @@ export default function Footer() {
                 <div className="mt-16 pt-8 border-t border-white/10">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-gray-500 text-sm text-center md:text-left">
-                            © 2025 <span className="text-purple-400 font-semibold">А.а.л.а.м Kids</span> — Все права защищены
+                            © 2025 <span className="text-purple-400 font-semibold">А.а.л.а.м Kids</span> — {t('Footer.copyright')}
                         </p>
                         <div className="flex items-center gap-6 text-sm text-gray-500">
-                            <a href="#" className="hover:text-white transition-colors">Политика конфиденциальности</a>
-                            <a href="#" className="hover:text-white transition-colors">Условия использования</a>
+                            <a href="#" className="hover:text-white transition-colors">{t('Footer.privacy')}</a>
+                            <a href="#" className="hover:text-white transition-colors">{t('Footer.terms')}</a>
                         </div>
                     </div>
                 </div>

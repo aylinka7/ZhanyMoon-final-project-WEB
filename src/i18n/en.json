@@ -4,7 +4,11 @@
     "about": "About us",
     "courses": "Courses",
     "achievements": "Achievements",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "aboutHeader": "Children's Innovative Center for Creativity and Development",
+    "call": "Call us",
+    "description": "We unlock every child's talent through creativity, play, and modern teaching methods.",
+    "navigation": "Navigation"
   },
   "Hero": {
     "subtitle": "Children's innovative center for creativity and development",
@@ -104,5 +108,11 @@
     "messageCourse": "Course",
     "notSelected": "Not selected",
     "loading": "Sending..."
+  },
+  "Footer" : {
+    "hoursValue": "Mon-Sun: 9:00 - 15:00",
+    "copyright": " All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
   }
 }
