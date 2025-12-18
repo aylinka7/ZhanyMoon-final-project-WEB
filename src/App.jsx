@@ -7,10 +7,12 @@ import Courses from './pages/Courses';
 import Achievements from './pages/Achievements';
 import Contacts from './pages/Contacts';
 import Admin from "./pages/Admin.jsx";
+import ScrollToTop from "./services/ScrollToTop.jsx";
 
 export default function App() {
     return (
         <BrowserRouter>
+          <ScrollToTop />
             <div className="flex flex-col min-h-screen bg-gray-50">
                 <Header />
                 <main className="flex-1">

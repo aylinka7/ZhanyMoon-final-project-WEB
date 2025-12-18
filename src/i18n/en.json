@@ -1,34 +1,33 @@
 {
   "Nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About us",
     "courses": "Courses",
     "achievements": "Achievements",
     "contacts": "Contacts"
   },
   "Hero": {
-    "title": "Academ Kids",
-    "subtitle": "Children’s Innovative Center for Creativity and Development",
+    "subtitle": "Children's innovative center for creativity and development",
     "wa": "Enroll via WhatsApp",
     "call": "Call",
-    "why": "Why us?",
-    "benefit1": "Professional teachers 7+ years",
-    "benefit2": "150+ competition wins",
+    "why": "Why choose us?",
+    "benefit1": "Professional teachers with 7+ years of experience",
+    "benefit2": "150+ wins in competitions",
     "benefit3": "Individual approach",
-    "benefit4": "Modern methods + play",
+    "benefit4": "Modern methods + play-based learning",
     "logoAlt": "Academ Kids",
     "loading": "Loading…"
   },
   "About": {
     "title": "About us",
     "text1": "Academ Kids is a creativity and development club for children aged 5 to 14.",
-    "text2": "More than 150 winners of republican and international olympiads and competitions.",
-    "text3": "Professional teachers, individual approach and only modern methods.",
-    "motto": "Developing talents, inspiring success!"
+    "text2": "More than 150 winners of national and international olympiads and competitions.",
+    "text3": "Professional teachers, individual approach to each child, and only modern teaching methods.",
+    "motto": "We develop talents and inspire success!"
   },
   "Courses": {
     "title": "Our courses",
-    "more": "Learn more",
+    "more": "More details",
     "enroll": "Enroll",
     "ageRange": "years",
     "available": "available courses",
@@ -37,23 +36,22 @@
     "schedule": "2 times a week • 60 min",
     "loadError": "Failed to load courses",
     "loading": "Loading courses...",
-    "heroSubtitle": "Choose the perfect course to grow your child's talent",
+    "heroSubtitle": "Choose the perfect course for developing your child's talents",
     "emptyTitle": "Courses coming soon",
-    "emptyText": "We’re preparing exciting programs for you!",
+    "emptyText": "We are preparing exciting programs for you!",
     "reload": "Reload",
-    "ctaText": "Contact us and we’ll help you pick the ideal program for your child!",
-    "ctaButton": "Get a consultation"
+    "ctaText": "Contact us and we will help you choose the ideal program for your child!",
+    "ctaButton": "Get consultation"
   },
   "Achievements": {
     "title": "Our achievements"
   },
   "Contacts": {
     "title": "Contacts",
-    "address": "Bishkek, Toktogul St. 123",
+    "address": "Arashan village, Zh. Akmatova str., 66, House of Culture, 2nd floor",
     "phone": "Phone / WhatsApp",
     "enroll": "Sign up for a trial lesson",
-    "phoneDisplay": "+996 999 123 456",
-    "description": "We’re always happy to answer questions and help you choose the best course for your child",
+    "description": "We are always ready to answer your questions and help you choose the best course for your child",
     "info": {
       "addressTitle": "Address",
       "phoneTitle": "Phone",
@@ -62,15 +60,15 @@
     },
     "hours": {
       "title": "Working hours",
-      "weekdays": "Monday - Friday",
+      "weekdays": "Monday - Sunday",
       "saturday": "Saturday",
       "sunday": "Sunday",
       "dayOff": "Day off",
-      "writeWhatsApp": "Message on WhatsApp"
+      "writeWhatsApp": "Write on WhatsApp"
     },
     "quick": {
       "title": "Quick contact",
-      "success": "Thank you! We’ll reach out soon.",
+      "success": "Thank you! We will contact you soon.",
       "namePlaceholder": "Your name",
       "phonePlaceholder": "Your phone",
       "messagePlaceholder": "Your message",
@@ -83,9 +81,9 @@
       "open": "Open in Google Maps"
     },
     "cta": {
-      "title": "Book a trial lesson!",
-      "text": "First lesson is free — meet our teachers and programs",
-      "button": "Book now"
+      "title": "Sign up for a trial lesson!",
+      "text": "The first lesson is free — get to know our teachers and programs",
+      "button": "Sign up now"
     }
   },
   "Form": {
@@ -98,7 +96,7 @@
     "parentName": "Parent's name",
     "parentNamePlaceholder": "Enter parent's name",
     "course": "Course",
-    "selectCourse": "Select a course",
+    "selectCourse": "Select course",
     "submit": "Submit application",
     "enrollMessage": "I want to enroll in the course",
     "messageName": "Name",

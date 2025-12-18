@@ -112,59 +112,59 @@ export default function Contacts() {
                         {/* Left Column - Contact Form & Working Hours */}
                         <div className="space-y-8">
                             {/* Quick Contact Form */}
-                            <div className="bg-white rounded-3xl shadow-xl p-8">
-                                <div className="flex items-center gap-3 mb-6">
-                                    <span className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">
-                                        ✉️
-                                    </span>
-                                    <h3 className="text-2xl font-bold text-gray-800">{t('Contacts.quick.title')}</h3>
-                                </div>
+                            {/*<div className="bg-white rounded-3xl shadow-xl p-8">*/}
+                            {/*    <div className="flex items-center gap-3 mb-6">*/}
+                            {/*        <span className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">*/}
+                            {/*            ✉️*/}
+                            {/*        </span>*/}
+                            {/*        <h3 className="text-2xl font-bold text-gray-800">{t('Contacts.quick.title')}</h3>*/}
+                            {/*    </div>*/}
 
-                                {submitted && (
-                                    <div className="mb-6 p-4 bg-green-100 border border-green-300 text-green-700 rounded-2xl flex items-center gap-3">
-                                        <span className="text-2xl">✅</span>
-                                        <span className="font-medium">{t('Contacts.quick.success')}</span>
-                                    </div>
-                                )}
+                            {/*    {submitted && (*/}
+                            {/*        <div className="mb-6 p-4 bg-green-100 border border-green-300 text-green-700 rounded-2xl flex items-center gap-3">*/}
+                            {/*            <span className="text-2xl">✅</span>*/}
+                            {/*            <span className="font-medium">{t('Contacts.quick.success')}</span>*/}
+                            {/*        </div>*/}
+                            {/*    )}*/}
 
-                                <form onSubmit={handleSubmit} className="space-y-4">
-                                    <div className="relative group">
-                                        <input
-                                            type="text"
-                                            placeholder={t('Contacts.quick.namePlaceholder')}
-                                            value={formData.name}
-                                            onChange={(e) => setFormData({...formData, name: e.target.value})}
-                                            required
-                                            className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all"
-                                        />
-                                    </div>
-                                    <div className="relative group">
-                                        <input
-                                            type="tel"
-                                            placeholder={t('Contacts.quick.phonePlaceholder')}
-                                            value={formData.phone}
-                                            onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                                            required
-                                            className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all"
-                                        />
-                                    </div>
-                                    <div className="relative group">
-                                        <textarea
-                                            placeholder={t('Contacts.quick.messagePlaceholder')}
-                                            value={formData.message}
-                                            onChange={(e) => setFormData({...formData, message: e.target.value})}
-                                            rows={4}
-                                            className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all resize-none"
-                                        />
-                                    </div>
-                                    <button
-                                        type="submit"
-                                        className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 rounded-2xl shadow-lg shadow-purple-500/30 transform hover:scale-[1.02] transition-all duration-300"
-                                    >
-                                        {t('Contacts.quick.submit')} 🚀
-                                    </button>
-                                </form>
-                            </div>
+                            {/*    <form onSubmit={handleSubmit} className="space-y-4">*/}
+                            {/*        <div className="relative group">*/}
+                            {/*            <input*/}
+                            {/*                type="text"*/}
+                            {/*                placeholder={t('Contacts.quick.namePlaceholder')}*/}
+                            {/*                value={formData.name}*/}
+                            {/*                onChange={(e) => setFormData({...formData, name: e.target.value})}*/}
+                            {/*                required*/}
+                            {/*                className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all"*/}
+                            {/*            />*/}
+                            {/*        </div>*/}
+                            {/*        <div className="relative group">*/}
+                            {/*            <input*/}
+                            {/*                type="tel"*/}
+                            {/*                placeholder={t('Contacts.quick.phonePlaceholder')}*/}
+                            {/*                value={formData.phone}*/}
+                            {/*                onChange={(e) => setFormData({...formData, phone: e.target.value})}*/}
+                            {/*                required*/}
+                            {/*                className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all"*/}
+                            {/*            />*/}
+                            {/*        </div>*/}
+                            {/*        <div className="relative group">*/}
+                            {/*            <textarea*/}
+                            {/*                placeholder={t('Contacts.quick.messagePlaceholder')}*/}
+                            {/*                value={formData.message}*/}
+                            {/*                onChange={(e) => setFormData({...formData, message: e.target.value})}*/}
+                            {/*                rows={4}*/}
+                            {/*                className="w-full px-5 py-4 bg-gray-50 border-2 border-gray-100 rounded-2xl focus:outline-none focus:border-purple-500 focus:bg-white transition-all resize-none"*/}
+                            {/*            />*/}
+                            {/*        </div>*/}
+                            {/*        <button*/}
+                            {/*            type="submit"*/}
+                            {/*            className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 rounded-2xl shadow-lg shadow-purple-500/30 transform hover:scale-[1.02] transition-all duration-300"*/}
+                            {/*        >*/}
+                            {/*            {t('Contacts.quick.submit')} 🚀*/}
+                            {/*        </button>*/}
+                            {/*    </form>*/}
+                            {/*</div>*/}
 
                             {/* Working Hours */}
                             <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 rounded-3xl shadow-xl p-8 text-white">
@@ -239,72 +239,72 @@ export default function Contacts() {
                             {/*    </div>*/}
                             {/*</div>*/}
                             {/* Карта 2GIS */}
-                            <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
-                                <div className="p-6 border-b border-gray-100">
-                                    <div className="flex items-center gap-3">
-                                        <span className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">
-                                            Map
-                                        </span>
-                                        <div>
-                                            <h3 className="text-xl font-bold text-gray-800">Мы находимся здесь</h3>
-                                            <p className="text-gray-500 text-sm">
-                                                с. Арашан, ул. Ж. Акматова, 66, Дом Культуры, 2 этаж
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                            {/*<div className="bg-white rounded-3xl shadow-xl overflow-hidden">*/}
+                            {/*    <div className="p-6 border-b border-gray-100">*/}
+                            {/*        <div className="flex items-center gap-3">*/}
+                            {/*            <span className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-2xl shadow-lg">*/}
+                            {/*                Map*/}
+                            {/*            </span>*/}
+                            {/*            <div>*/}
+                            {/*                <h3 className="text-xl font-bold text-gray-800">Мы находимся здесь</h3>*/}
+                            {/*                <p className="text-gray-500 text-sm">*/}
+                            {/*                    с. Арашан, ул. Ж. Акматова, 66, Дом Культуры, 2 этаж*/}
+                            {/*                </p>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
 
-                                {/* 2GIS карта — точный адрес! */}
-                                <div className="relative w-full h-96">
-                                    <div
-                                        className="dg-widget-link"
-                                        style={{ width: '100%', height: '100%' }}>
-                                        <a
-                                            href="https://2gis.kg/bishkek/firm/70000001062313835"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            style={{
-                                                display: 'block',
-                                                width: '100%',
-                                                height: '100%',
-                                                border: 0
-                                            }}
-                                        >
-                                            <img
-                                                src="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"
-                                                alt="2GIS Карта"
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                            />
-                                        </a>
-                                    </div>
-                                    <script
-                                        charset="utf-8"
-                                        src="https://widgets.2gis.com/js/DGWidgetLoader.js"
-                                        async
-                                    ></script>
-                                    <script charset="utf-8" dangerouslySetInnerHTML={{ __html: `
-                                        new DGWidgetLoader({
-                                            "width": "100%", 
-                                            "height": "100%", 
-                                            "borderColor": "#a3a3a3", 
-                                            "pos": {"lat": 42.8531, "lon": 74.6308, "zoom": 18}, 
-                                            "opt": {"city": "bishkek"}, 
-                                            "org": [{"id": "70000001062313835"}]
-                                        });
-                                    `}}></script>
-                                </div>
+                                {/*/!* 2GIS карта — точный адрес! *!/*/}
+                                {/*<div className="relative w-full h-96">*/}
+                                {/*    <div*/}
+                                {/*        className="dg-widget-link"*/}
+                                {/*        style={{ width: '100%', height: '100%' }}>*/}
+                                {/*        <a*/}
+                                {/*            href="https://2gis.kg/bishkek/firm/70000001062313835"*/}
+                                {/*            target="_blank"*/}
+                                {/*            rel="noopener noreferrer"*/}
+                                {/*            style={{*/}
+                                {/*                display: 'block',*/}
+                                {/*                width: '100%',*/}
+                                {/*                height: '100%',*/}
+                                {/*                border: 0*/}
+                                {/*            }}*/}
+                                {/*        >*/}
+                                {/*            <img*/}
+                                {/*                src="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"*/}
+                                {/*                alt="2GIS Карта"*/}
+                                {/*                style={{ width: '100%', height: '100%', objectFit: 'cover' }}*/}
+                                {/*            />*/}
+                                {/*        </a>*/}
+                                {/*    </div>*/}
+                                {/*    <script*/}
+                                {/*        charset="utf-8"*/}
+                                {/*        src="https://widgets.2gis.com/js/DGWidgetLoader.js"*/}
+                                {/*        async*/}
+                                {/*    ></script>*/}
+                                {/*    <script charset="utf-8" dangerouslySetInnerHTML={{ __html: `*/}
+                                {/*        new DGWidgetLoader({*/}
+                                {/*            "width": "100%", */}
+                                {/*            "height": "100%", */}
+                                {/*            "borderColor": "#a3a3a3", */}
+                                {/*            "pos": {"lat": 42.8531, "lon": 74.6308, "zoom": 18}, */}
+                                {/*            "opt": {"city": "bishkek"}, */}
+                                {/*            "org": [{"id": "70000001062313835"}]*/}
+                                {/*        });*/}
+                                {/*    `}}></script>*/}
+                                {/*</div>*/}
 
-                                <div className="p-6">
-                                    <a
-                                        href="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 rounded-2xl transition-all shadow-lg"
-                                    >
-                                        Открыть в 2GIS
-                                    </a>
-                                </div>
-                            </div>
+                            {/*    <div className="p-6">*/}
+                            {/*        <a*/}
+                            {/*            href="https://2gis.kg/bishkek/geo/70030076126363025/74.642628,42.731177"*/}
+                            {/*            target="_blank"*/}
+                            {/*            rel="noopener noreferrer"*/}
+                            {/*            className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 rounded-2xl transition-all shadow-lg"*/}
+                            {/*        >*/}
+                            {/*            Открыть в 2GIS*/}
+                            {/*        </a>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
 
                             {/* Quick Actions */}
                             <div className="grid grid-cols-2 gap-4">

@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
+import insta from '../assets/instagram.png';
+import whats from '../assets/whatsapp.png';
 
 export default function Footer() {
     const { t } = useTranslation();
 
     const socialLinks = [
-        { name: 'Instagram', icon: '📸', url: 'https://www.instagram.com/aalam_kids?igsh=MW1xaTQyNzNzM29oaQ==', color: 'from-pink-500 to-purple-600' },
-        { name: 'WhatsApp', icon: '💬', url: 'https://wa.me/996999123456', color: 'from-green-500 to-emerald-600' },
+        { name: 'Instagram', icon: insta, url: 'https://www.instagram.com/aalam_kids?igsh=MW1xaTQyNzNzM29oaQ==', color: 'from-pink-500 to-purple-600' },
+        { name: 'WhatsApp', icon: whats, url: 'https://wa.me/996999123456', color: 'from-green-500 to-emerald-600' },
         // { name: 'Telegram', icon: '✈️', url: '#', color: 'from-blue-400 to-blue-600' },
         // { name: 'YouTube', icon: '🎬', url: '#', color: 'from-red-500 to-red-700' },
     ];
@@ -54,7 +56,7 @@ export default function Footer() {
                                     className={`w-10 h-10 rounded-xl bg-gradient-to-r ${social.color} flex items-center justify-center text-lg shadow-lg transform hover:scale-110 hover:-translate-y-1 transition-all duration-300`}
                                     title={social.name}
                                 >
-                                    {social.icon}
+                                  <img src={social.icon} alt=""/>
                                 </a>
                             ))}
                         </div>
@@ -99,8 +101,8 @@ export default function Footer() {
                                 <span className="text-xl mt-0.5">📱</span>
                                 <div>
                                     <div className="text-sm text-gray-400">Телефон</div>
-                                    <a href="tel:+996999123456" className="text-white hover:text-purple-400 transition-colors">
-                                        +996 999 123 456
+                                    <a href="tel:+996505709670" className="text-white hover:text-purple-400 transition-colors">
+                                      +996 505 709 670
                                     </a>
                                 </div>
                             </li>
