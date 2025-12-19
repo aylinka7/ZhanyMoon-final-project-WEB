@@ -372,7 +372,7 @@ export default function Admin() {
                 </form>
 
                 <p className="text-center text-sm text-gray-500 mt-6">
-                    Подсказка: admin / academ2025
+                    {/*Подсказка: admin / academ2025*/}
                 </p>
             </div>
         </div>
