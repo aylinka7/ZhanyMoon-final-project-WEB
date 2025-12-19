@@ -153,15 +153,15 @@ export default function Main() {
                                 <div className="grid grid-cols-3 gap-4 mt-8 pt-8 border-t border-white/20">
                                     <div className="text-center">
                                         <div className="text-3xl font-bold text-yellow-300">500+</div>
-                                        <div className="text-sm text-white/70">Учеников</div>
+                                        <div className="text-sm text-white/70">{t('Hero.statsStudents')}</div>
                                     </div>
                                     <div className="text-center">
                                         <div className="text-3xl font-bold text-green-300">15+</div>
-                                        <div className="text-sm text-white/70">Курсов</div>
+                                        <div className="text-sm text-white/70">{t('Hero.statsCourses')}</div>
                                     </div>
                                     <div className="text-center">
                                         <div className="text-3xl font-bold text-pink-300">5⭐</div>
-                                        <div className="text-sm text-white/70">Рейтинг</div>
+                                        <div className="text-sm text-white/70">{t('Hero.statsRating')}</div>
                                     </div>
                                 </div>
                             </div>
@@ -186,13 +186,13 @@ export default function Main() {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
                         <span className="inline-block bg-gradient-to-r from-purple-100 to-pink-100 text-purple-600 px-6 py-2 rounded-full text-sm font-semibold mb-4">
-                            🎓 Наши программы
+                            {t('Courses.programsBadge')}
                         </span>
                         <h2 className="text-4xl lg:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
                             {t('Courses.title')}
                         </h2>
                         <p className="text-gray-600 mt-4 text-lg max-w-2xl mx-auto">
-                            Выберите идеальный курс для вашего ребенка и откройте мир возможностей
+                          {t('Courses.coursesDescription')}
                         </p>
                     </div>
 
@@ -271,7 +271,7 @@ export default function Main() {
                             to="/courses"
                             className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-10 py-5 rounded-2xl text-lg font-bold shadow-xl transform hover:scale-105 transition-all duration-300"
                         >
-                            Все курсы
+                          {t('Courses.allCoursesButton')}
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                             </svg>
@@ -300,7 +300,7 @@ export default function Main() {
                             {t('Contacts.enroll')}
                         </h2>
                         <p className="text-white/80 text-xl max-w-2xl mx-auto">
-                            Заполните форму и мы свяжемся с вами в течение 30 минут
+                          {t('Form.formSubtitle')}
                         </p>
                     </div>
 
@@ -444,7 +444,7 @@ export default function Main() {
                                                 className="w-full px-6 py-5 bg-white/90 backdrop-blur-sm rounded-2xl text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-purple-400/50 transition-all shadow-lg resize-none placeholder-gray-400"
                                             />
                                             <label className="absolute -top-3 left-5 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-medium shadow-lg">
-                                                💬 Сообщение
+                                              {t('Form.messageLabel')}
                                             </label>
                                         </div>
                                     </div>
@@ -480,15 +480,15 @@ export default function Main() {
                         <div className="flex flex-wrap justify-center gap-6 mt-10">
                             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full text-white/90">
                                 <span className="text-xl">🔒</span>
-                                <span className="text-sm">Безопасно</span>
+                                <span className="text-sm">{t('Form.trustSecure')}</span>
                             </div>
                             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full text-white/90">
                                 <span className="text-xl">⚡</span>
-                                <span className="text-sm">Быстрый ответ</span>
+                                <span className="text-sm">{t('Form.trustFast')}</span>
                             </div>
                             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-5 py-3 rounded-full text-white/90">
                                 <span className="text-xl">💯</span>
-                                <span className="text-sm">Гарантия качества</span>
+                                <span className="text-sm">{t('Form.trustQuality')}</span>
                             </div>
                         </div>
                     </div>

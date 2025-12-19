@@ -20,7 +20,11 @@
     "benefit3": "Individual approach",
     "benefit4": "Modern methods + play-based learning",
     "logoAlt": "Academ Kids",
-    "loading": "Loading…"
+    "loading": "Loading…",
+    "statsStudents": "Students",
+    "statsCourses": "Courses",
+    "statsRating": "Rating"
+
   },
   "About": {
     "title": "About us",
@@ -45,7 +49,10 @@
     "emptyText": "We are preparing exciting programs for you!",
     "reload": "Reload",
     "ctaText": "Contact us and we will help you choose the ideal program for your child!",
-    "ctaButton": "Get consultation"
+    "ctaButton": "Get consultation",
+    "programsBadge": "🎓 Our programs",
+    "coursesDescription": "Choose the perfect course for your child and open up a world of opportunities",
+    "allCoursesButton": "All courses"
   },
   "Achievements": {
     "title": "Our achievements"
@@ -107,7 +114,12 @@
     "messagePhone": "Phone",
     "messageCourse": "Course",
     "notSelected": "Not selected",
-    "loading": "Sending..."
+    "loading": "Sending...",
+    "formSubtitle": "Fill out the form and we will contact you within 30 minutes",
+    "messageLabel": "💬 Message",
+    "trustSecure": "Secure",
+    "trustFast": "Fast response",
+    "trustQuality": "Quality guaranteed"
   },
   "Footer" : {
     "hoursValue": "Mon-Sun: 9:00 - 15:00",
