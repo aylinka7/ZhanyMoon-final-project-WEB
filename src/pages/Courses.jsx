@@ -280,13 +280,13 @@ export default function Courses() {
                 <div className="container mx-auto px-4 text-center">
                     <span className="text-6xl mb-6 block">🎯</span>
                     <h2 className="text-4xl lg:text-5xl font-extrabold mb-6">
-                        Не нашли подходящий курс?
+                      {t('Courses.noSuitableCourse')}
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto mb-10">
                         {t('Courses.ctaText')}
                     </p>
                     <a
-                        href="https://wa.me/996999123456"
+                        href="https://wa.me/996505709670"
                         className="inline-flex items-center gap-3 bg-white text-purple-600 hover:bg-gray-100 px-10 py-5 rounded-2xl text-xl font-bold shadow-2xl transform hover:scale-105 transition-all duration-300"
                     >
                         <span className="text-2xl">💬</span>

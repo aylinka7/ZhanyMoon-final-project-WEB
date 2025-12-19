@@ -33,6 +33,36 @@
     "text3": "Professional teachers, individual approach to each child, and only modern teaching methods.",
     "motto": "We develop talents and inspire success!"
   },
+  "AboutPage": {
+    "heroDescription": "A place where every child unlocks their potential through creativity, play, and the joy of learning",
+    "storyBadge": "📖 Our story",
+    "storyTitle": "Building the future together with children",
+    "sinceBadge": "Since 2018",
+    "valuesBadge": "💎 Our values",
+    "valuesTitle": "Why parents choose us",
+    "teamBadge": "👨‍👩‍👧‍👦 Our team",
+    "teamTitle": "Meet our teachers",
+    "statsYears": "Years of experience",
+    "statsGraduates": "Graduates",
+    "statsCourses": "Courses",
+    "statsAwards": "Awards"
+  },
+  "AboutValues": {
+    "individual": "Individual approach",
+    "individualDesc": "We take into account the unique traits of each child",
+    "playLearning": "Play-based learning",
+    "playLearningDesc": "We teach through play and creativity",
+    "teachers": "Experienced teachers",
+    "teachersDesc": "Professionals who truly love children",
+    "results": "Proven results",
+    "resultsDesc": "150+ awards and achievements"
+  },
+  "AboutTeam": {
+    "director": "Director",
+    "creativeTeacher": "Creative arts teacher",
+    "roboticsTeacher": "Robotics teacher",
+    "musicTeacher": "Music teacher"
+  },
   "Courses": {
     "title": "Our courses",
     "more": "More details",
@@ -52,10 +82,44 @@
     "ctaButton": "Get consultation",
     "programsBadge": "🎓 Our programs",
     "coursesDescription": "Choose the perfect course for your child and open up a world of opportunities",
-    "allCoursesButton": "All courses"
+    "allCoursesButton": "All courses",
+    "noSuitableCourse": "Can't find the right course?"
   },
   "Achievements": {
     "title": "Our achievements"
+  },
+  "AchievementsPage": {
+    "heroDescription": "We are proud of every achievement of our talented students!",
+    "statsAwards": "Awards",
+    "statsFirstPlaces": "First places",
+    "statsContests": "Contests",
+    "statsYears": "Years of victories",
+    "partialText": "And this is just a part of our achievements!",
+    "allAchievementsButton": "All achievements",
+    "ctaTitle": "Want your child to become a winner?",
+    "ctaDescription": "Sign up your child for a trial lesson and discover their talents with us!",
+    "ctaButton": "Sign up for a trial lesson"
+  },
+  "AchievementsFilters": {
+    "all": "All",
+    "robotics": "Robotics",
+    "art": "Art & Creativity",
+    "math": "Mathematics",
+    "other": "Other"
+  },
+  "AchievementsList": {
+    "1": "Robotics Olympiad",
+    "2": "Young Artists Competition",
+    "3": "Mathematics Olympiad",
+    "4": "Creativity Festival",
+    "5": "IT Championship",
+    "6": "Talent Contest",
+    "7": "Chess Tournament",
+    "8": "Children's Creativity Exhibition",
+    "9": "Science Conference",
+    "10": "Robo-Battle",
+    "11": "Art Festival",
+    "12": "Logic Olympiad"
   },
   "Contacts": {
     "title": "Contacts",
