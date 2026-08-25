@@ -329,7 +329,7 @@ export default function Admin() {
                         Lock
                     </div>
                     <h2 className="text-4xl font-bold text-gray-800">Админ-панель</h2>
-                    <p className="text-gray-600 mt-2">Только для сотрудников Академ Кидс</p>
+                    <p className="text-gray-600 mt-2">Только для сотрудников А.а.л.а.м kids</p>
                 </div>
 
                 <form onSubmit={handleLogin} className="space-y-6">

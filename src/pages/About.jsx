@@ -19,10 +19,10 @@ export default function About() {
   ];
 
   const stats = [
-    { number: '7+', label: t('AboutPage.statsYears'), icon: '📅' },
-    { number: '500+', label: t('AboutPage.statsGraduates'), icon: '🎓' },
-    { number: '15+', label: t('AboutPage.statsCourses'), icon: '📚' },
-    { number: '150+', label: t('AboutPage.statsAwards'), icon: '🏆' },
+    { number: '', label: t('AboutPage.statsYears'), icon: '📅' },
+    { number: '', label: t('AboutPage.statsGraduates'), icon: '🎓' },
+    { number: '8+', label: t('AboutPage.statsCourses'), icon: '📚' },
+    { number: '', label: t('AboutPage.statsAwards'), icon: '🏆' },
   ];
 
   return (
@@ -68,7 +68,7 @@ export default function About() {
                 <div className="relative bg-white p-4 rounded-[2.5rem] shadow-2xl">
                   <img
                       src={logo}
-                      alt="Академ Кидс"
+                      alt="А.а.л.а.м kids"
                       className="w-full rounded-[2rem] object-contain"
                   />
                   {/* Floating Badge */}

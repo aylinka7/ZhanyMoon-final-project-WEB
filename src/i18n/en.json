@@ -16,10 +16,10 @@
     "call": "Call",
     "why": "Why choose us?",
     "benefit1": "Professional teachers with 7+ years of experience",
-    "benefit2": "150+ wins in competitions",
+    "benefit2": "A wide range of competitions",
     "benefit3": "Individual approach",
     "benefit4": "Modern methods + play-based learning",
-    "logoAlt": "Academ Kids",
+    "logoAlt": "А.а.л.а.м kids",
     "loading": "Loading…",
     "statsStudents": "Students",
     "statsCourses": "Courses",
@@ -28,8 +28,8 @@
   },
   "About": {
     "title": "About us",
-    "text1": "Academ Kids is a creativity and development club for children aged 5 to 14.",
-    "text2": "More than 150 winners of national and international olympiads and competitions.",
+    "text1": "А.а.л.а.м kids is a creativity and development club for children aged 5 to 14.",
+    "text2": "Preparing children for success in Olympiads and competitions",
     "text3": "Professional teachers, individual approach to each child, and only modern teaching methods.",
     "motto": "We develop talents and inspire success!"
   },
@@ -42,10 +42,10 @@
     "valuesTitle": "Why parents choose us",
     "teamBadge": "👨‍👩‍👧‍👦 Our team",
     "teamTitle": "Meet our teachers",
-    "statsYears": "Years of experience",
-    "statsGraduates": "Graduates",
-    "statsCourses": "Courses",
-    "statsAwards": "Awards"
+    "statsYears": "Experienced educators",
+    "statsGraduates": "Personalized approach",
+    "statsCourses": "areas of development",
+    "statsAwards": "Raising future champions"
   },
   "AboutValues": {
     "individual": "Individual approach",
@@ -55,7 +55,7 @@
     "teachers": "Experienced teachers",
     "teachersDesc": "Professionals who truly love children",
     "results": "Proven results",
-    "resultsDesc": "150+ awards and achievements"
+    "resultsDesc": "Nurturing talents every day"
   },
   "AboutTeam": {
     "director": "Director",

@@ -35,7 +35,7 @@ export default function Footer() {
                     {/* Brand Section */}
                     <div className="lg:col-span-1">
                         <Link to="/" className="flex items-center gap-3 mb-6">
-                            <img src={logo} alt="Академ Кидс" className="w-16 h-16 object-contain" />
+                            <img src={logo} alt="А.а.л.а.м kids" className="w-16 h-16 object-contain" />
                             <div>
                                 <span className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
                                     А.а.л.а.м Kids

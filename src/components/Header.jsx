@@ -30,7 +30,7 @@ export default function Header() {
                             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
                             <img
                                 src={logo}
-                                alt="Академ Кидс"
+                                alt="А.а.л.а.м kids"
                                 className="relative w-14 h-14 object-contain transform group-hover:scale-110 transition-transform duration-300"
                             />
                         </div>
