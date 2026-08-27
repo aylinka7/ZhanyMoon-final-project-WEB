@@ -58,10 +58,12 @@
     "resultsDesc": "Nurturing talents every day"
   },
   "AboutTeam": {
-    "director": "Director",
-    "creativeTeacher": "Creative arts teacher",
-    "roboticsTeacher": "Robotics teacher",
-    "musicTeacher": "Music teacher"
+    "coFounder1": "Co-founder",
+    "coFounder2": "Co-founder",
+    "coordinator": "After school teacher and coordinator",
+    "manager": "English teacher and manager",
+    "englishTeacher": "English teacher",
+    "choreographyTeacher": "Choreography teacher"
   },
   "Courses": {
     "title": "Our courses",

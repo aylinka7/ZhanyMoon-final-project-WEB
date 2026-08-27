@@ -1,5 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
+import coFounder1Photo from '../assets/teachers/co-founder1.png';
+import coFounder2Photo from '../assets/teachers/co-founder2.png';
+import coordinatorPhoto from '../assets/teachers/coordinator.png';
+import managerPhoto from '../assets/teachers/manager.png';
+import englishPhoto from '../assets/teachers/english.png';
+import choreographyPhoto from '../assets/teachers/choreography.png';
 
 export default function About() {
   const { t } = useTranslation();
@@ -12,10 +18,12 @@ export default function About() {
   ];
 
   const team = [
-    { name: 'Анна Петрова', role: t('AboutTeam.director'), emoji: '👩‍💼' },
-    { name: 'Мария Иванова', role: t('AboutTeam.creativeTeacher'), emoji: '👩‍🎨' },
-    { name: 'Алексей Сидоров', role: t('AboutTeam.roboticsTeacher'), emoji: '👨‍🔬' },
-    { name: 'Елена Козлова', role: t('AboutTeam.musicTeacher'), emoji: '👩‍🎤' },
+    { role: t('AboutTeam.coFounder1'), photo: coFounder1Photo },
+    { role: t('AboutTeam.coFounder2'), photo: coFounder2Photo },
+    { role: t('AboutTeam.coordinator'), photo: coordinatorPhoto },
+    { role: t('AboutTeam.manager'), photo: managerPhoto },
+    { role: t('AboutTeam.englishTeacher'), photo: englishPhoto },
+    { role: t('AboutTeam.choreographyTeacher'), photo: choreographyPhoto },
   ];
 
   const stats = [
@@ -147,14 +155,13 @@ export default function About() {
               </h2>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {team.map((member, index) => (
-                  <div key={index} className="group bg-white p-8 rounded-3xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div className="w-24 h-24 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full flex items-center justify-center text-5xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                      {member.emoji}
+                  <div key={index} className="group bg-white rounded-3xl overflow-hidden text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                    <div className="aspect-square w-full overflow-hidden">
+                      <img src={member.photo} alt={member.role} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-1">{member.name}</h3>
-                    <p className="text-purple-600 font-medium">{member.role}</p>
+                    <p className="text-purple-600 font-medium py-6 px-4">{member.role}</p>
                   </div>
               ))}
             </div>

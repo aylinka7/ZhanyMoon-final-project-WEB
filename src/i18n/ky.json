@@ -57,10 +57,12 @@
     "resultsDesc": "Таланттарды күн сайын өнүктүрөбүз"
   },
   "AboutTeam": {
-    "director": "Директор",
-    "creativeTeacher": "Чыгармачылык боюнча мугалим",
-    "roboticsTeacher": "Робототехника боюнча мугалим",
-    "musicTeacher": "Музыка боюнча мугалим"
+    "coFounder1": "Негиздөөчү",
+    "coFounder2": "Негиздөөчү",
+    "coordinator": "Продленка мугалими жана координатор",
+    "manager": "Англис тили мугалими жана менеджер",
+    "englishTeacher": "Англис тили мугалими",
+    "choreographyTeacher": "Хореография мугалими"
   },
   "Courses": {
     "title": "Биздин курстар",

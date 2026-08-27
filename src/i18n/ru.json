@@ -57,10 +57,12 @@
     "resultsDesc": "Развиваем таланты каждый день"
   },
   "AboutTeam": {
-    "director": "Директор",
-    "creativeTeacher": "Педагог творчества",
-    "roboticsTeacher": "Педагог робототехники",
-    "musicTeacher": "Педагог музыки"
+    "coFounder1": "Учредитель",
+    "coFounder2": "Учредитель",
+    "coordinator": "Преподаватель по продленке и координатор",
+    "manager": "Преподаватель английского языка и менеджер",
+    "englishTeacher": "Преподаватель английского языка",
+    "choreographyTeacher": "Преподаватель хореографии"
   },
   "Courses": {
     "title": "Наши курсы",
